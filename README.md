@@ -115,7 +115,7 @@ $hideout->delete($entry); // Just returns TRUE or FALSE
 
 ### Troubleshooting
 
-The most common problem is with `https`. This library uses `biohzrdmx/curly-php` and it requires a properly configured server to work. Please [https://github.com/biohzrdmx/curly-php](refer to its documentation) to get more details.
+The most common problem is with `https`. This library uses `biohzrdmx/curly-php` and it requires a properly configured server to work. Please [refer to its documentation](https://github.com/biohzrdmx/curly-php) to get more details.
 
 Otherwise please open an issue and we will gladly help you.
 
