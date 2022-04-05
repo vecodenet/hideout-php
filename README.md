@@ -18,7 +18,7 @@ First require `vecode/hideout-php` with Composer.
 Now get an instance of `Hideout` with the `newInstance` method and set the server location and client token:
 
 ```php
-use Hideout\Hideout;';
+use Hideout\Hideout;
 
 $server = 'https://hideout.my-server.com';
 $token = 'xxxxx.yyyyyyyyyyyyy';
@@ -37,7 +37,7 @@ In addition to the client token, you will require a secret key (or several ones)
 Is as simple as calling the `generate` method:
 
 ```php
-use Hideout\Hideout;';
+use Hideout\Hideout;
 
 $server = 'https://hideout.my-server.com';
 $token = 'xxxxx.yyyyyyyyyyyyy';
@@ -58,7 +58,7 @@ Once you got the key it must be saved in a safe place. For example you can set i
 With your key you can create secrets, by using the `store` method and passing the `key` and secret `data`:
 
 ```php
-use Hideout\Hideout;';
+use Hideout\Hideout;
 
 $server = 'https://hideout.my-server.com';
 $token = 'xxxxx.yyyyyyyyyyyyy';
@@ -79,7 +79,7 @@ In this case you will receive the `entry` identifier of the secret once it is st
 To get the secrets back just call the `retrieve` method, this time you must pass the `key` and the `entry` identifier:
 
 ```php
-use Hideout\Hideout;';
+use Hideout\Hideout;
 
 $server = 'https://hideout.my-server.com';
 $token = 'xxxxx.yyyyyyyyyyyyy';
@@ -100,7 +100,7 @@ Then you will receive the original data.
 There's also the option to delete any secret by calling the `delete` method with the `entry` identifier:
 
 ```php
-use Hideout\Hideout;';
+use Hideout\Hideout;
 
 $server = 'https://hideout.my-server.com';
 $token = 'xxxxx.yyyyyyyyyyyyy';
