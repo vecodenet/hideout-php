@@ -1,3 +1,5 @@
+![logo](.github/logo.svg)
+
 hideout-php
 ===========
 
