@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/logo_w.svg">
   <source media="(prefers-color-scheme: light)" srcset=".github/logo.svg">
-  <img src=".github/logo_w.svg">
+  <img src=".github/logo.svg">
 </picture>
 
 hideout-php
